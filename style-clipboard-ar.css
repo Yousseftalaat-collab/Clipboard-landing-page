@@ -1,0 +1,352 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cairo", "Tajawal", sans-serif;
+  direction: rtl;
+  text-align: center;
+  color: hsl(210, 10%, 33%);
+  background-color: white;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header section */
+.header-items {
+  margin-top: -80px;
+  padding: 2rem;
+}
+
+.header-items h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.header-items p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  color: hsl(201, 11%, 66%);
+}
+
+.header-items span button {
+  margin: 0.5rem;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.header-items span button:nth-child(2) {
+  background-color: hsl(233, 100%, 69%);
+}
+
+/* Features */
+.features-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin: 5rem 0;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.features-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.features-content {
+  flex: 1;
+  min-width: 300px;
+  text-align: right;
+}
+
+.feature-item {
+  margin-bottom: 2rem;
+}
+
+.feature-item h3 {
+  font-size: 1.25rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 0.5rem;
+}
+
+.feature-item p {
+  color: hsl(201, 11%, 66%);
+  line-height: 1.6;
+}
+
+/* Access section */
+.access-section {
+  text-align: center;
+  margin: 6rem auto;
+  padding: 0 1rem;
+}
+
+.access-text h2 {
+  font-size: 2rem;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 1rem;
+}
+
+.access-text p {
+  color: hsl(201, 11%, 66%);
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  line-height: 1.6;
+}
+
+.access-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Workflow section */
+.workflow {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 4rem 0;
+  flex-wrap: wrap;
+}
+
+.tool {
+  max-width: 300px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.tool img {
+  margin-bottom: 1rem;
+  height: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tool h3 {
+  color: hsl(210, 10%, 33%);
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.tool p {
+  color: hsl(201, 11%, 66%);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+section p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  color: hsl(201, 11%, 66%);
+}
+
+/* Logos section */
+.logos-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin: 6rem auto;
+  padding: 0 2rem;
+}
+
+.logo {
+  max-height: 40px;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: transform 0.3s;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/* Call-to-action section */
+.cta-section {
+  text-align: center;
+  margin: 6rem auto;
+  max-width: 600px;
+  padding: 0 1.5rem;
+}
+
+.cta-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 1rem;
+}
+
+.cta-description {
+  color: hsl(201, 11%, 66%);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.cta-buttons .btn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.cta-buttons .btn.mac {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.cta-buttons .btn:hover {
+  opacity: 0.9;
+}
+
+/* Footer */
+.footer {
+  background-color: hsl(201, 11%, 96%);
+  padding: 3rem 1rem;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-logo {
+  width: 60px;
+  flex-shrink: 0;
+  margin-top: 0.5rem;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(120px, 1fr));
+  gap: 0.75rem 3rem;
+  text-align: right;
+}
+
+.footer-links a {
+  color: hsl(210, 10%, 33%);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.footer-links a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-socials a img {
+  width: 24px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .features-section,
+  .workflow,
+  .cta-buttons,
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .features-content {
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer-socials {
+    justify-content: center;
+  }
+}
+.lang-btn-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+body[dir="rtl"] .lang-btn-container {
+  right: auto;
+  left: 20px;
+}
+.lang-btn-container {
+  width: 100%;
+  text-align: right;
+  padding: 1rem 2rem 0 0;
+  box-sizing: border-box;
+}
+
+.lang-btn {
+  background-color: hsl(171, 66%, 44%);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.lang-btn:hover {
+  background-color: hsl(171, 66%, 35%);
+}
