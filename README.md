@@ -1,6 +1,6 @@
 <h1>📋 Responsive Clipboard Landing Page</h1>
 
-<p><strong>Project #12</strong> – A modern and responsive landing page for a clipboard manager app, built with only <strong>HTML</strong> and <strong>CSS</strong>. It features a clean layout, responsive design, and full support for both English and Arabic languages (with RTL layout).</p>
+<p> A modern and responsive landing page for a clipboard manager app, built with only <strong>HTML</strong> and <strong>CSS</strong>. It features a clean layout, responsive design, and full support for both English and Arabic languages (with RTL layout).</p>
 
 <hr>
 
