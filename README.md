@@ -2,6 +2,11 @@
 
 <p> A modern and responsive landing page for a clipboard manager app, built with only <strong>HTML</strong> and <strong>CSS</strong>. It features a clean layout, responsive design, and full support for both English and Arabic languages (with RTL layout).</p>
 
+
+<h2>📸 Preview</h2>
+<div align="center">
+<img src="page.gif" width="600" />
+</div>
 <hr>
 
 <h2>📱 Mobile-Friendly</h2>
